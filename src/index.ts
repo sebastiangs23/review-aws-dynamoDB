@@ -4,7 +4,7 @@ import morgan from "morgan";
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 import "dotenv/config.js";
-// import "./db/config.js";
+import "./db/db.js";
 
 const server = express();
 
